@@ -42,3 +42,5 @@ Once you’ve done that, run the next command to create the file to bee submitte
 tar -cf exo.tar * && rm -rf test*
 ```
 
+To extract a tar archive while preserving permissions: `tar -xf exo.tar -p`
+
