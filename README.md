@@ -6,7 +6,7 @@
 | 01 | Z | ✅ |
 | 02 | clean | 🚧 |
 | 03 | find_sh | ✅ |
-| 04 | MAC | **Completed** |
+| 04 | MAC | 🚧 |
 | 05 | Can you create it ? | 🚧 |
 | 06 | ft_print_alphabet | ✅ |
 | 07 | ft_print_numbers | ✅ |
