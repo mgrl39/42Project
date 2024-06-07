@@ -39,6 +39,6 @@ ln -s test0 test6 && touch -ht 06012220 test6
 
 Once you’ve done that, run the next command to create the file to bee submitted.
 ```shell
-tar -cf exo.tar *
+tar -cf exo.tar * && rm -rf test*
 ```
 
