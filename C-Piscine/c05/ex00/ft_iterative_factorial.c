@@ -15,7 +15,7 @@ int	ft_iterative_factorial(int nb)
 	}
 	return (result);
 }
-
+/*
 int main(int argc, char *argv[])
 {
     int number, factorial;
@@ -38,3 +38,4 @@ int main(int argc, char *argv[])
 
     return (0); // Indicate successful execution
 }
+*/
