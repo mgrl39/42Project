@@ -2,7 +2,7 @@
 
 | Number | Exercise | Status |
 |---|---|---|
-| 00 | Oh yeah, mooore... | 🚧 |
+| 00 | Oh yeah, mooore... | ✅ |
 | 01 | Z | ✅ |
 | 02 | clean | 🚧 |
 | 03 | find_sh | ✅ |
