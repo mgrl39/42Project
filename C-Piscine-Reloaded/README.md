@@ -7,7 +7,7 @@
 | 02 | clean | 🚧 |
 | 03 | find_sh | ✅ |
 | 04 | MAC | ✅ |
-| 05 | Can you create it ? | 🚧 |
+| 05 | Can you create it ? | ✅ |
 | 06 | ft_print_alphabet | ✅ |
 | 07 | ft_print_numbers | ✅ |
 | 08 | ft_is_negative | ✅ |
