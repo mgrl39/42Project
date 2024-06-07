@@ -6,7 +6,7 @@ mkdir test0 && chmod 715 test0 && touch -t 06012047 test0 && echo -n "4242" > te
 
 
 <details open>
-<summary>Want the previous command separated by files/directories</summary>
+<summary>The same command but not in a line</summary>
 <br>
 
 ```shell
