@@ -1,5 +1,7 @@
 ## Piscine Reloaded: Exercise Status
 
+As a developer, I am showcasing the progress of my exercises and their current state. However, I do not guarantee that they are 100% complete or fully verified.
+
 | Number | Exercise | Status |
 |---|---|---|
 | 00 | Oh yeah, mooore... | ✅ |
