@@ -1,15 +1,16 @@
-#include <stdio.h>
+// #include <stdio.h>
 
 int	ft_strcmp(char *s1, char *s2)
 {
 	int	count;
-	
+
 	count = 0;
 	while (s1[count] == s2[count] && s1[count] != '\0')
 		count++;
-	return (s1[count]-s2[count]);
+	return (s1[count] - s2[count]);
 }
 
+/*
 int	main(int argc, char *argv[])
 {
 	if (argc != 3)
@@ -29,3 +30,4 @@ int	main(int argc, char *argv[])
 
 	return (0);
 }
+*/
