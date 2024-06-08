@@ -54,3 +54,8 @@ typedef struct s_point
 - `struct s_point` defines a structure with the tag s_point. A structure in C is a user-defined data type that groups related variables.
 - `{ int x; int y; }` are the members of the structure. Here, `x` and `y` are both integers that represent coordinates in a 2D space.
 - `t_point` is the alias name for the structure struct s_point. This means you can use t_point instead of struct s_point when declaring variables of this type, making the code cleaner and easier to read.
+
+```c
+#endif
+```
+his line ends the conditional started by #ifndef. If the file has not been included before, the code between #ifndef and #endif is included. If it has been included before, it is ignored.
