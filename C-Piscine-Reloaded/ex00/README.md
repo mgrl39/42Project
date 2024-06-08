@@ -22,20 +22,47 @@ mkdir test0 && chmod 715 test0 && touch -t 06012047 test0 && echo -n "4242" > te
 ```shell
 mkdir test0 && chmod 715 test0 && touch -t 06012047 test0
 ```
+
 ### b) test1
+- Write "4242" to a file named 'test1' without a newline
+- Change the permissions of 'test1' to 714
+  - The owner has read, write, and execute permissions (7)
+  - The group has read and write permissions (4)
+  - Others have read permission (4)
+- Change the modification time of 'test1' to June 1, 21:46 (year is unspecified, system will default)
 ```shell
 echo -n "4242" > test1 && chmod 714 test1 && touch -t 06012146 test1
 ```
+
 ### c) test2
+- Create a directory named 'test2'
+- Change the permissions of 'test2' to 504
+  - The owner has read and execute permissions (5)
+  - The group has read permission (0)
+  - Others have read and execute permissions (4)
+- Change the modification time of 'test2' to June 1, 22:45 (year is unspecified, system will default)
 ```shell
 mkdir test2 && chmod 504 test2 && touch -t 06012245 test2
 ```
+
 ### d) test3
+- Write "1" to a file named 'test3' without a newline
+- Change the permissions of 'test3' to 404
+  - The owner has read permission (4)
+  - The group has no permissions (0)
+  - Others have read permission (4)
+- Change the modification time of 'test3' to June 1, 23:44 (year is unspecified, system will default)
 ```shell
 echo -n "1" > test3 && chmod 404 test3 && touch -t 06012344 test3
 ```
 
 ### e) test4
+- Write "42" to a file named 'test4' without a newline
+- Change the permissions of 'test4' to 641
+  - The owner has read, write, and execute permissions (6)
+  - The group has read permission (4)
+  - Others have read and execute permissions (1)
+- Change the modification time of 'test4' to June 1, 23:43 (year is unspecified, system will default)
 ```shell
 echo -n "42" > test4 && chmod 641 test4 && touch -t 06012343 test4
 ```
