@@ -1,5 +1,7 @@
+/*
 #include <stdio.h>
 #include <stdlib.h>
+*/
 
 int	ft_recursive_factorial(int nb)
 {
@@ -11,9 +13,10 @@ int	ft_recursive_factorial(int nb)
 		return (nb * ft_recursive_factorial(nb - 1));
 }
 
+/*
 int main(int argc, char *argv[]) {
     if (argc != 2) {
-        fprintf(stderr, "Usage: %s <number>\n", argv[0]); // Informative error message
+        fprintf(stderr, "Usage: %s <number>\n", argv[0]);
         return (1); // Indicate error
     }
 
@@ -27,3 +30,4 @@ int main(int argc, char *argv[]) {
 
     return (0); // Indicate successful execution
 }
+*/
