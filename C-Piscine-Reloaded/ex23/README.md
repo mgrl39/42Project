@@ -15,3 +15,16 @@ int main(void)
   return (0);
 }
 ```
+We have to define a structure t_point with x and y as its members:
+```c
+#ifndef FT_POINT_H
+#define FT_POINT_H
+
+typedef struct s_point
+{
+  int x;
+  int y;
+} t_point;
+
+#endif
+```
