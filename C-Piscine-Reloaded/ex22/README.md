@@ -8,3 +8,5 @@ Create a macro ABS which replaces its argument by it absolute value: `#define AB
 
 #endif
 ```
+> [!NOTE]  
+> You are asked to do something that is normally banned by the Norm, that will be the only time they autorize it.
