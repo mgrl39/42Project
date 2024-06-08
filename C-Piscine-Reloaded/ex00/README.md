@@ -68,11 +68,14 @@ echo -n "42" > test4 && chmod 641 test4 && touch -t 06012343 test4
 ```
 
 ### f) test5
+- Creates a symbolic link named 'test5' that points to the same location as 'test3'. This means that 'test5' is essentially another name for the same file as 'test3'. Any changes made to 'test3' will be reflected in 'test5', and vice versa.
 ```shell
 ln test3 test5
 ```
 
 ### g) test6
+- Creates a symbolic link named 'test6' that points to the directory 'test0'. This means that 'test6' is essentially a shortcut or reference to 'test0'.
+- Sets the modification time of 'test6' to June 1 at 22:20 (the year is unspecified, so the system will default to the current year).
 ```shell
 ln -s test0 test6 && touch -ht 06012220 test6
 ```
