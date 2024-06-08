@@ -30,7 +30,7 @@ typedef struct s_point
 #endif
 ```
 
-Explanation:
+## Explanation:
 ```c
 #ifndef FT_POINT_H
 ```
