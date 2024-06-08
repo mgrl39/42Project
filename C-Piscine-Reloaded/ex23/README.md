@@ -52,3 +52,4 @@ typedef struct s_point
 ```
 - `typedef` is a keyword used to create an alias for a data type, making it easier to use.
 - `struct s_point` defines a structure with the tag s_point. A structure in C is a user-defined data type that groups related variables.
+- `{ int x; int y; }` are the members of the structure. Here, `x` and `y` are both integers that represent coordinates in a 2D space.
