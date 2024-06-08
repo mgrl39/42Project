@@ -41,3 +41,10 @@ This is the first part of an include guard, which prevents the code within the g
 ```
 If FT_POINT_H is not defined, this line defines it. 
 The purpose of this is to ensure that the following code is only included once, even if this header file is included multiple times in different files.
+```c
+typedef struct s_point
+{
+  int x;
+  int y;
+} t_point;
+```
