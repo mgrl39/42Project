@@ -60,3 +60,9 @@ This program will:
 3. **Run the Program**: Create a `point` and set its `x` and `y` values using the `set_point` function.
 
 That's it! Now you have a file that helps your program understand and use a special box called `t_point` to store two numbers.
+
+| Name      | File Image            |
+|-----------|-----------------------|
+| **[ft_point.h](ft_point.h)**| ![ft_point.h](ft_point.h.png) |
+| **[main.c](main.c)**    | ![main.c](main.c.png) |
+
