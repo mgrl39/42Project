@@ -1,29 +1,32 @@
+/*
 #include <stdlib.h>
 #include <stdio.h>
+*/
 
-int     *ft_range(int min, int max)
+int	*ft_range(int min, int max)
 {
-        int     i;
-        int     *array;
+	int	i;
+	int	*array;
 
-        if (min >= max)
-        {
-                array = NULL;
-                return (array);
-        }
-        array = malloc(sizeof(int) * (max - min));
-        if (!array)
-                return (NULL);
-        i = 0;
-        while (min < max)
-        {
-                array[i] = min;
-                min++;
-                i++;
-        }
-        return (array);
+	if (min >= max)
+	{
+		array = NULL;
+		return (array);
+	}
+	array = malloc(sizeof(int) * (max - min));
+	if (!array)
+		return (NULL);
+	i = 0;
+	while (min < max)
+	{
+		array[i] = min;
+		min++;
+		i++;
+	}
+	return (array);
 }
 
+/*
 // Main function to test ft_range with command line arguments
 int main(int argc, char *argv[]) {
     if (argc != 3) {
@@ -53,3 +56,4 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
+*/
