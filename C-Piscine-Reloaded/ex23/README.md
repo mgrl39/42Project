@@ -1,4 +1,6 @@
 # ft_point.h
+> [!TIP]
+> If you don't understand this, see if reading [SIMPLE](SIMPLE.md) helps you understand it better.
 Create a file ft_point.h that'll compile the following main:
 ```c
 #include "ft_point.h"
@@ -60,4 +62,3 @@ typedef struct s_point
 This line ends the conditional started by #ifndef. If the file has not been included before, the code between #ifndef and #endif is included. If it has been included before, it is ignored.
 (This ends our check. If we haven't added this file before, we do it now. If we already did it, we skip everything between #ifndef and #endif.)
 
-Got it? If not, click here --> [SIMPLE](SIMPLE.md)
