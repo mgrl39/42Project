@@ -36,3 +36,8 @@ Explanation:
 ```
 This line checks if the preprocessor macro FT_POINT_H is not defined. The #ifndef directive stands for "if not defined". 
 This is the first part of an include guard, which prevents the code within the guard from being included more than once in a single compilation.
+```c
+#define FT_POINT_H
+```
+If FT_POINT_H is not defined, this line defines it. 
+The purpose of this is to ensure that the following code is only included once, even if this header file is included multiple times in different files.
