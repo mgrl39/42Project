@@ -1,9 +1,6 @@
 #include <unistd.h>
 
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+void	ft_putchar(char c);
 
 void	ft_putstr(char *str)
 {
@@ -15,6 +12,11 @@ void	ft_putstr(char *str)
 		ft_putchar(str[i]);
 		i++;
 	}
+}
+/*
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
 }
 
 int	main(int argc, char *argv[])
@@ -35,5 +37,6 @@ int	main(int argc, char *argv[])
 				ft_putchar(' ');
 			i++;
 		}
-	}	
+	}
 }
+*/
