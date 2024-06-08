@@ -1,11 +1,12 @@
+/*
 #include <unistd.h>
 #include <stdio.h>
-
+*/
 void	ft_ft(int *nbr)
 {
 	*nbr = 42;
 }
-
+/*
 int	main(void)
 {
 	int	a;
@@ -15,3 +16,4 @@ int	main(void)
 	printf("El valor de la variable es: %d\n", a);
 	return (0);
 }
+*/
