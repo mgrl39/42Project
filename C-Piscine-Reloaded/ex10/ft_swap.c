@@ -1,10 +1,9 @@
+/*
 #include <unistd.h>
 #include <stdio.h>
+*/
 
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+void	ft_putchar(char c);
 
 void	ft_swap(int *a, int *b)
 {
@@ -15,6 +14,11 @@ void	ft_swap(int *a, int *b)
 	*b = tmp;
 }
 /*
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
+
 int	main(void)
 {
 	char ch = 'a';
