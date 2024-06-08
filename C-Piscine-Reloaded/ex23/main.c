@@ -13,7 +13,7 @@ int main(void)
   return (0);
 }
 
-// Main with ft_putnbr.c and putchar.c to try
+// Main with ft_putnbr.c and putchar.c to test
 /* 
 
 void  ft_putchar(char c)
