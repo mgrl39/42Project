@@ -61,5 +61,9 @@ typedef struct s_point
 This line ends the conditional started by #ifndef. If the file has not been included before, the code between #ifndef and #endif is included. If it has been included before, it is ignored.
 (This ends our check. If we haven't added this file before, we do it now. If we already did it, we skip everything between #ifndef and #endif.)
 
-![ft_point.h](ft_point.h.png)
-![main.c](main.c.png)
+Sure, here's how you can represent that in a table format:
+
+| Name      | File Image            |
+|-----------|-----------------------|
+| ft_point.h| ![ft_point.h](ft_point.h.png) |
+| main.c    | ![main.c](main.c.png) |
