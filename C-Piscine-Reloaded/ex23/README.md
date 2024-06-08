@@ -29,3 +29,9 @@ typedef struct s_point
 
 #endif
 ```
+
+```c
+#ifndef FT_POINT_H
+```
+This line checks if the preprocessor macro FT_POINT_H is not defined. The #ifndef directive stands for "if not defined". 
+This is the first part of an include guard, which prevents the code within the guard from being included more than once in a single compilation.
