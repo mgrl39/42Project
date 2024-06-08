@@ -35,12 +35,13 @@ void	ft_sort_params(int argc, char *argv[])
 		i++;
 	}
 }
+
 /*
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
-
+*/
 int	main(int argc, char *argv[])
 {
 	int	i;
@@ -61,4 +62,3 @@ int	main(int argc, char *argv[])
 	}
 	return (0);
 }
-*/
