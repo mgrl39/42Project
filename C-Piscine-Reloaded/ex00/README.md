@@ -11,6 +11,14 @@ mkdir test0 && chmod 715 test0 && touch -t 06012047 test0 && echo -n "4242" > te
 <br>
 
 ### test0
+- Create a directory named 'test0'
+- Change the permissions of 'test0' to 715
+  - The owner has read, write, and execute permissions (7)
+  - The group has execute permission (1)
+  - Others have read and execute permissions (5)
+- Change the modification time of 'test0' to June 1, 20:47 (year is unspecified, system will default)
+  - The format is MMDDhhmm, meaning month, day, hour, and minute
+  - 'touch -t' allows you to set the modification time
 ```shell
 mkdir test0 && chmod 715 test0 && touch -t 06012047 test0
 ```
