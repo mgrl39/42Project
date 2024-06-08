@@ -1,6 +1,4 @@
 # ft_point.h
-> [!TIP]
-> If you don't understand this, see if reading [SIMPLE](SIMPLE.md) helps you understand it better.
 Create a file ft_point.h that'll compile the following main:
 ```c
 #include "ft_point.h"
@@ -31,7 +29,8 @@ typedef struct s_point
 
 #endif
 ```
-
+> [!TIP]
+> If you don't understand this, see if reading [SIMPLE](SIMPLE.md) helps you understand it better.
 ## Explanation:
 ```c
 #ifndef FT_POINT_H
