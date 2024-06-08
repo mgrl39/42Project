@@ -65,5 +65,5 @@ Sure, here's how you can represent that in a table format:
 
 | Name      | File Image            |
 |-----------|-----------------------|
-| ft_point.h| ![ft_point.h](ft_point.h.png) |
-| main.c    | ![main.c](main.c.png) |
+| **[ft_point.h](ft_point.h)**| ![ft_point.h](ft_point.h.png) |
+| **[main.c](main.c)**    | ![main.c](main.c.png) |
