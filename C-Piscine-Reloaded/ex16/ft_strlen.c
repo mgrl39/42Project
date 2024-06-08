@@ -1,5 +1,7 @@
+/*
 #include <unistd.h>
 #include <stdio.h>
+*/
 
 int	ft_strlen(char *str)
 {
@@ -11,6 +13,7 @@ int	ft_strlen(char *str)
 	return (i);
 }
 
+/*
 int	main(int argc, char *argv[]) {
 	int	string_length;
 	
@@ -26,3 +29,4 @@ int	main(int argc, char *argv[]) {
 	}
   	return (0);
 }
+*/
