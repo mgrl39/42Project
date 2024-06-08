@@ -50,3 +50,5 @@ typedef struct s_point
   int y;
 } t_point;
 ```
+- **typedef** is a keyword used to create an alias for a data type, making it easier to use.
+- **struct s_point** defines a structure with the tag s_point. A structure in C is a user-defined data type that groups related variables.
