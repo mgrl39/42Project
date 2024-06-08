@@ -6,7 +6,7 @@ As a developer, I am showcasing the progress of my exercises and their current s
 |---|---|---|
 | 00 | Oh yeah, mooore... | ✅ |
 | 01 | Z | ✅ |
-| 02 | clean | 🚧 |
+| 02 | clean | ✅ |
 | 03 | find_sh | ✅ |
 | 04 | MAC | ✅ |
 | 05 | Can you create it ? | ✅ |
