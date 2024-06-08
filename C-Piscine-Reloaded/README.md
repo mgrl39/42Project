@@ -23,10 +23,10 @@ As a developer, I am showcasing the progress of my exercises and their current s
 | 16 | ft_strlen | ✅ |
 | 17 | ft_strcmp | ✅ |
 | 18 | ft_print_params | ✅ |
-| 19 | ft_sort_params | 🚧 |
-| 20 | ft_strdup | 🚧 |
-| 21 | ft_range | 🚧 |
-| 22 | ft_abs.h | 🚧 |
+| 19 | ft_sort_params | ✅ |
+| 20 | ft_strdup | ✅ |
+| 21 | ft_range | ✅ |
+| 22 | ft_abs.h | ✅ |
 | 23 | ft_point.h | 🚧 |
 | 24 | Makefile | 🚧 |
 | 25 | ft_foreach | 🚧 |
