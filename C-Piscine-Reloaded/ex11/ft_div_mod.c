@@ -1,12 +1,15 @@
+/*
 #include <unistd.h>
 #include <stdio.h>
+*/
+
 void	ft_div_mod(int a, int b, int *div, int *mod)
 {
 	*div = a / b;
 	*mod = a % b;
 }
 
-
+/*
 int main(void) {
   int num1 = 10; // Predefined number 1
   int num2 = 2;  // Predefined number 2
@@ -27,3 +30,4 @@ int main(void) {
 
   return (0); // Indicate successful execution
 }
+*/
