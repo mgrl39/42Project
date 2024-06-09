@@ -16,4 +16,4 @@ int ft_sqrt(int nb)
     return (0);
 }
 ```
-![ft_sqrt.c](sqrt.png)
+![ft_sqrt.c](ft_sqrt.png)
