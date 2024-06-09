@@ -3,43 +3,30 @@
 #include <stdlib.h>
 */
 
-int	ft_sqrt(int nb)
+int	ft_recursive_factorial(int nb)
 {
-	int	sqrt;
-
 	if (nb < 0)
 		return (0);
-	sqrt = 0;
-	while (sqrt * sqrt < nb)
-		sqrt++;
-	if (sqrt * sqrt == nb)
-		return (sqrt);
-	return (0);
+	else if (nb == 0 || nb == 1)
+		return (1);
+	else
+		return (nb * ft_recursive_factorial(nb - 1));
 }
 
 /*
-int	main(int argc, char *argv[])
-{
-    int number, result;
-
+int main(int argc, char *argv[]) {
     if (argc != 2) {
         fprintf(stderr, "Usage: %s <number>\n", argv[0]);
         return (1); // Indicate error
     }
 
+    int number;
+
     number = atoi(argv[1]);
-    if (number < 0) {
-        printf("Square root is not defined for negative numbers.\n");
-        return (1); // Indicate error
-    }
 
-    result = ft_sqrt(number);
+    int factorial = ft_recursive_factorial(number);
 
-    if (result == 0) {
-        printf("The number %d is not a perfect square.\n", number);
-    } else {
-        printf("The square root of %d is %d\n", number, result);
-    }
+    printf("The factorial of %d is %d\n", number, factorial);
 
     return (0); // Indicate successful execution
 }
