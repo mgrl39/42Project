@@ -1,4 +1,4 @@
-Create the Makefile that’ll compile your libft.a.
+Create the Makefile that’ll compile your `libft.a`.
 - The Makefile will get its source files from the "srcs" directory.
 - The Makefile will get its header files from the "includes" directory.
 - The lib will be at the root of the exercise.
