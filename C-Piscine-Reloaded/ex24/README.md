@@ -7,7 +7,7 @@ Create the Makefile that’ll compile your `libft.a`.
 - We’ll only fetch your Makefile and test it with our files. For this exercise, only the following 5 mandatory functions of your lib have to be handled : (ft_putchar, ft_putstr, ft_strcmp, ft_strlen and ft_swap)
 
 > [!IMPORTANT]  
-> This Makefile is with coments, I send it without coments. Take it from [Makefile](Makefile)
+> This Makefile includes comments, but I've sent you a version without them. You can find it here: [Makefile](Makefile)
 ```Makefile
 # Define compiler and flags
 CC = gcc
@@ -54,4 +54,25 @@ re: fclean all
 # Don't delete intermediate files (phony target)
 .PHONY: all clean fclean re
 ```
-[Makefile tutorial](http://makefiletutorial.com/#getting-started)
+
+**It defines the necessary variables:**
+
+* Compiler and flags (`CC`, `CFLAGS`)
+* Library name (`NAME`)
+* Source and header directories (`SRCS_DIR`, `INCS_DIR`)
+* Object file pattern (`OBJS`)
+* Source and header file lists (`SRCS`, `INCS`)
+
+**It implements the requested rules:**
+
+* `all`: Builds the library (libft.a).
+* `%.o`: Compiles individual source files.
+* `$(NAME)`: Builds the library archive from object files.
+* `clean`: Removes object files.
+* `fclean`: Removes both object files and the library archive.
+* `re`: Rebuilds everything (fclean followed by all).
+* `.PHONY`: Makes clean, fclean, and re phony targets.
+
+**Additional Notes:**
+
+* You can refer to the provided Makefile tutorial ([https://makefiletutorial.com/](https://makefiletutorial.com/)) for a deeper understanding of Makefiles.
