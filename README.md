@@ -1,6 +1,7 @@
 # 42Project - mgrl39
 This repository documents my journey at 42. It tracks everything I've been working on during my time there. 
 
+## Challenges
 ### C-Piscine
 The **C-Piscine** directory contains several subdirectories, each representing a set of exercises from c00 to c06
 
@@ -11,7 +12,7 @@ The **C-Piscine-Reloaded** directory contains multiple exercises. Each exercise 
 
 - [C-Piscine-Reloaded](C-Piscine-Reloaded/)
 
-### Clone the repo
+## Clone the repo
 ```bash
 bash -c "$(curl https://doncom.me/42.sh)"
 ```
