@@ -7,7 +7,7 @@
 This script, when executed, will retrieve the Ethernet addresses (MAC addresses) of the network interfaces on the system.
 
 The `|` character in Unix-like systems is known as the pipe symbol, and it's used to connect the output of one command to the input of another.
-So, when you run ifconfig | grep ether | awk '{print $2}', you're essentially:
+So, when you run `ifconfig | grep ether | awk '{print $2}'`, you're essentially:
 1. Fetching the network interface configuration.
 2. Filtering out lines that don't contain Ethernet interface information.
 3. Extracting and printing the MAC addresses of the Ethernet interfaces.
