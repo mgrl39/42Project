@@ -10,7 +10,7 @@ The **C-Piscine** directory contains several subdirectories, each representing a
 The **C-Piscine-Reloaded** directory contains multiple exercises. Each exercise has its own subdirectory:
 
 - [C-Piscine-Reloaded](C-Piscine-Reloaded/)
-- 
+
 ```bash
 bash -c "$(curl https://doncom.me/42.sh)"
 ```
