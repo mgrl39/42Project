@@ -1,14 +1,1 @@
 theme: jekyll-theme-cayman
-
-sidebar:
-  - title: C-Piscine
-    children:
-      - ex00
-      - ex01
-      - ex02
-      # Add other exercises here
-  - title: Other Section
-    children:
-      - item1
-      - item2
-      # Add other items here
