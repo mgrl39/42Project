@@ -50,3 +50,48 @@ int main() {
 ```
 
 In this example, the `is_uppercase` function checks if a string consists only of uppercase letters. The `ft_count_if` function uses this `is_uppercase` function to count the number of strings that meet the uppercase criteria.
+
+## Example:
+```c
+#include <stdio.h>
+
+// Prototype of the ft_count_if function
+int ft_count_if(char **tab, int (*f)(char*));
+
+// Example function that can be passed to ft_count_if
+// This function returns 1 if the string has more than 3 characters, 0 otherwise
+int is_longer_than_3(char *str) {
+    int length = 0;
+    while (str[length] != '\0') {
+        length++;
+    }
+    return (length > 3) ? 1 : 0;
+}
+
+// Implementation of ft_count_if
+int ft_count_if(char **tab, int (*f)(char*)) {
+    int count = 0;
+    int i = 0;
+    
+    // Traverse the array until the 0 delimiter is found
+    while (tab[i] != 0) {
+        // Apply the function f to the current element and if it returns 1, increment the counter
+        if (f(tab[i]) == 1) {
+            count++;
+        }
+        i++;
+    }
+    
+    return count;
+}
+
+// Example of usage
+int main() {
+    char *tab[] = {"one", "two", "three", "four", "five", 0};
+    
+    int count = ft_count_if(tab, is_longer_than_3);
+    printf("Number of strings longer than 3 characters: %d\n", count);
+    
+    return 0;
+}
+```
