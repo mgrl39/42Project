@@ -8,7 +8,7 @@ This function, `ft_count_if`, counts how many strings in an array of strings mee
 
 2. **Local Variables:**
    - `int i`: This is used to keep track of the current index in the array `tab`.
-   - `int count`: This keeps track of how many strings meet the condition defined by the function
+   - `int count`: This keeps track of how many strings meet the condition defined by the function `f`
 
 ```c
 int	ft_count_if(char **tab, int (*f)(char*))
