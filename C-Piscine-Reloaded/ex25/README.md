@@ -1,18 +1,19 @@
 ```c
-void ft_foreach(int *tab, int length, void (*f)(int))
+// Loop through each element while the counter is less than the length
+// Call the provided function 'f' with the current element (tab[i])
+// Increment the counter after each function call
+void	ft_foreach(int *tab, int length, void (*f)(int))
 {
-  int i = 0;
+	int	i;
 
-  // Loop through each element while the counter is less than the length
-  while (i < length)
-  {
-    // Call the provided function 'f' with the current element (tab[i])
-    f(tab[i]);
-
-    // Increment the counter after each function call
-    i++;
-  }
+	i = 0;
+	while (i < length)
+	{
+		f(tab[i]);
+		i++;
+	}
 }
+
 ```
 
 **Explanation:**
