@@ -1,6 +1,4 @@
-## Exercise 27
-
-**display_file**
+## Exercise 27: **display_file**
 
 **Turn-in directory**: ex27
 
