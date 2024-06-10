@@ -27,11 +27,11 @@ As a developer, I am showcasing the progress of my exercises and their current s
 | 20     | [ft_strdup](ex20)                 | ✅     | 08/06/2024 |
 | 21     | [ft_range](ex21)                  | ✅     | 08/06/2024 |
 | 22     | [ft_abs.h](ex22)                  | ✅     | 08/06/2024 |
-| 23     | [ft_point.h](ex23)                | 🚧     | 09/06/2024 |
-| 24     | [Makefile](ex24)                  | 🚧     | 09/06/2024 |
-| 25     | [ft_foreach](ex25)                | 🚧     | 10/06/2024 |
-| 26     | [ft_count_if](ex26)               | 🚧     | 10/06/2024 |
-| 27     | [display_file](ex27)              | 🚧     |            |
+| 23     | [ft_point.h](ex23)                | ✅     | 09/06/2024 |
+| 24     | [Makefile](ex24)                  | ✅     | 09/06/2024 |
+| 25     | [ft_foreach](ex25)                | ✅     | 10/06/2024 |
+| 26     | [ft_count_if](ex26)               | ✅     | 10/06/2024 |
+| 27     | [display_file](ex27)              | ✅     | 10/06/2024 |
 
 ## Progress
 - **6th June:**
