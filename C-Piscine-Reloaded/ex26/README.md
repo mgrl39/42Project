@@ -1,15 +1,3 @@
-### Purpose of the Code
-This function, `ft_count_if`, counts how many strings in an array of strings meet a certain condition.
-
-### Components of the Function
-1. **Parameters:**
-   - `char **tab`: This is an array of strings (each string is a `char *`).
-   - `int (*f)(char*)`: This is a function pointer. It points to a function that takes a string (`char*`) as an argument and returns an integer.
-
-2. **Local Variables:**
-   - `int i`: This is used to keep track of the current index in the array `tab`.
-   - `int count`: This keeps track of how many strings meet the condition defined by the function `f`
-
 ```c
 int	ft_count_if(char **tab, int (*f)(char*))
 {
@@ -27,6 +15,18 @@ int	ft_count_if(char **tab, int (*f)(char*))
 	return (count);
 }
 ```
+
+### Purpose of the Code
+This function, `ft_count_if`, counts how many strings in an array of strings meet a certain condition.
+
+### Components of the Function
+1. **Parameters:**
+   - `char **tab`: This is an array of strings (each string is a `char *`).
+   - `int (*f)(char*)`: This is a function pointer. It points to a function that takes a string (`char*`) as an argument and returns an integer.
+
+2. **Local Variables:**
+   - `int i`: This is used to keep track of the current index in the array `tab`.
+   - `int count`: This keeps track of how many strings meet the condition defined by the function `f`
 
 ### How It Works
 1. **Initialization:**
