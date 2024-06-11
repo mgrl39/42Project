@@ -1,5 +1,4 @@
 First day: Mon Jun 10 15:05
-Got it, here's the updated information with just the 🚧 emoji indicating the status:
 
 ### Mandatory Part: `libc` Functions
 
