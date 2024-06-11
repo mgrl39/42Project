@@ -7,20 +7,20 @@ First day: Mon Jun 10 15:05
 
 | Number | Function    | Status  |
 |--------|-------------|---------|
-| 01     | ft_isalpha  | 🚧       |
-| 02     | ft_isdigit  | 🚧       |
-| 03     | ft_isalnum  | 🚧       |
+| 01     | ft_isalpha  | ⚠️       |
+| 02     | ft_isdigit  | ⚠️       |
+| 03     | ft_isalnum  | ⚠️       |
 | 04     | ft_isascii  | 🚧       |
 | 05     | ft_isprint  | 🚧       |
-| 06     | ft_strlen   | 🚧       |
+| 06     | ft_strlen   | ⚠️       |
 | 07     | ft_memset   | 🚧       |
 | 08     | ft_bzero    | 🚧       |
 | 09     | ft_memcpy   | 🚧       |
 | 10     | ft_memmove  | 🚧       |
 | 11     | ft_strlcpy  | 🚧       |
 | 12     | ft_strlcat  | 🚧       |
-| 13     | ft_toupper  | 🚧       |
-| 14     | ft_tolower  | 🚧       |
+| 13     | ft_toupper  | ⚠️       |
+| 14     | ft_tolower  | ⚠️       |
 | 15     | ft_strchr   | 🚧       |
 | 16     | ft_strrchr  | 🚧       |
 | 17     | ft_strncmp  | 🚧       |
