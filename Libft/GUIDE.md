@@ -17,6 +17,9 @@ In some locales, there may be additional characters for  which  isalpha()  is  t
 **checks for any printable character including space.**
 
 ## strlen
+**calculate the length of a string**
+`size_t strlen(const char *s);`
+**The strlen() function returns the number of bytes in the string pointed to by s.**
 ## memset
 ## bzero
 ## memcpy
