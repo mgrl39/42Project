@@ -10,7 +10,7 @@ First day: Mon Jun 10 15:05
 | 01     | ft_isalpha  | ⚠️       |
 | 02     | ft_isdigit  | ⚠️       |
 | 03     | ft_isalnum  | ⚠️       |
-| 04     | ft_isascii  | 🚧       |
+| 04     | ft_isascii  | ⚠️       |
 | 05     | ft_isprint  | ⚠️       |
 | 06     | ft_strlen   | ⚠️       |
 | 07     | ft_memset   | 🚧       |
