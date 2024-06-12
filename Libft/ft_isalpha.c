@@ -52,4 +52,5 @@ int	main(int argc, char *argv[])
 		ft_putstr("Is a letter\n");
 	else
 		ft_putstr("Is not a letter\n");
+	return (0);
 }
