@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include "libft.h"
 
 int	ft_isalnum(char c)
 {
@@ -9,7 +9,6 @@ int	ft_isalnum(char c)
 	return (0);
 }
 
-/*
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
@@ -56,4 +55,3 @@ int	main(int argc, char *argv[])
 		ft_putstr("Is not a alphanumeric character.\n");
 	return (0);
 }
-*/
