@@ -1,6 +1,6 @@
 # Parte 1 - libc Functions
 
-## isalpha
+### isalpha
 **checks  for an alphabetic character; in the standard "C" locale, it is equivalent to (isupper(c) || is‐lower(c)). 
 In some locales, there may be additional characters for  which  isalpha()  is  true—letters which are neither uppercase nor lowercase.**
 
@@ -24,7 +24,7 @@ The function checks if the character falls within either of the following ranges
 If the character falls within either of these ranges, the function returns 1, indicating it's alphabetic. Otherwise, it returns 0.
 
 ![ft_isalpha image](../_img/diagrams/ft_isalpha.png)
-## isdigit
+### isdigit
 **checks for a digit (0 through 9).**
 
 `int ft_isdigit(int c);`
@@ -45,7 +45,7 @@ This ft_isdigit function is designed to check whether a character is a digit. It
 If the character falls within this range, the function returns 1, indicating it's a digit. Otherwise, it returns 0.
 
 ![ft_isdigit image](../_img/diagrams/ft_isdigit.png)
-## isalnum
+### isalnum
 **checks for an alphanumeric character; it is equivalent to (isalpha(c) || isdigit(c)).**
 
 `int ft_isalnum(int c);`
@@ -70,7 +70,7 @@ The function checks if the character falls within any of the following ranges:
 If the character falls within any of these ranges, the function returns 1, indicating it's alphanumeric. Otherwise, it returns 0.
 
 ![ft_isalnum image](../_img/diagrams/ft_isalnum.png)
-## isascii
+### isascii
 **checks whether c is a 7-bit unsigned char value that fits into the ASCII character set.**
 
 `int ft_isascii(int c);`
@@ -90,7 +90,7 @@ This ft_isascii function is designed to check whether a character is a valid ASC
 If the character's ASCII value falls within this range, the function returns 1, indicating it's a valid ASCII character. Otherwise, it returns 0.
 
 ![ft_isascii image](../_img/diagrams/ft_isascii.png)
-## isprint
+### isprint
 **checks for any printable character including space.**
 
 `int ft_isprint(int c);`
@@ -109,7 +109,7 @@ This ft_isprint function is designed to check whether a character is a printable
 
 If the character's ASCII value falls within this range, the function returns 1, indicating it's a printable character. Otherwise, it returns 0.
 ![ft_isprint image](../_img/diagrams/ft_isprint.png)
-## toupper
+### toupper
 
 If  c is a lowercase letter, toupper() returns its uppercase equivalent, if an uppercase representation exists in the current locale.  Otherwise, it returns c. 
 
@@ -126,7 +126,7 @@ int	ft_toupper(int c)
 }
 ```
 ![ft_toupper image](../_img/diagrams/ft_toupper.png)
-## tolower
+### tolower
 
 If  c is an uppercase letter, tolower() returns its lowercase equivalent, if a lowercase representation exists in the current locale.  Otherwise, it returns c.
 
@@ -143,7 +143,7 @@ int	ft_tolower(int c)
 }
 ```
 ![ft_tolower image](../_img/diagrams/ft_tolower.png)
-## strlen
+### strlen
 **calculate the length of a string**
 
 `size_t ft_strlen(const char *s);`
@@ -172,19 +172,19 @@ The breakdown:
 * Finally, it returns the value of i, which represents the length of the string.
 
 ![ft_strlen image](../_img/diagrams/ft_strlen.png)
-## strlcpy
-## strlcat
-## strchr
-## strchr
-## strrchr
-## strncmp
-## strnstr
+### strlcpy
+### strlcat
+### strchr
+### strchr
+### strrchr
+### strncmp
+### strnstr
 
-## memset
-## bzero
-## memcpy
-## memmove
+### memset
+### bzero
+### memcpy
+### memmove
+### memchr
+### memcmp
 
-## memchr
-## memcmp
-## atoi
+### atoi
