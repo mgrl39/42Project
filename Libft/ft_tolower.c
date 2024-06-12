@@ -4,6 +4,11 @@ int	ft_tolower(int c)
 		return (c + 32);
 	return (c);
 }
+/*
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
 
 int	main(int argc, char *argv[])
 {
@@ -15,3 +20,4 @@ int	main(int argc, char *argv[])
 	}
 	return (0);
 }
+*/

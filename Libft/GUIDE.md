@@ -105,6 +105,40 @@ This ft_isprint function is designed to check whether a character is a printable
 
 If the character's ASCII value falls within this range, the function returns 1, indicating it's a printable character. Otherwise, it returns 0.
 
+## toupper
+
+If  c is a lowercase letter, toupper() returns its uppercase equivalent, if an uppercase representation exists in the current locale.  Otherwise, it returns c. 
+
+`int toupper(int c);`
+
+The value returned is that of the converted letter, or c if the conversion was not possible.
+
+```c
+int	ft_toupper(int c)
+{
+	if (c >= 97 && c <= 122)
+		c -= 32;
+	return (c);
+}
+```
+
+## tolower
+
+If  c is an uppercase letter, tolower() returns its lowercase equivalent, if a lowercase representation exists in the current locale.  Otherwise, it returns c.
+
+`int tolower(int c);`
+
+The value returned is that of the converted letter, or c if the conversion was not possible.
+
+```c
+int	ft_tolower(int c)
+{
+	if (c >= 65 && c >= 90)
+		return (c + 32);
+	return (c);
+}
+```
+
 ## strlen
 **calculate the length of a string**
 
@@ -112,19 +146,40 @@ If the character's ASCII value falls within this range, the function returns 1, 
 
 The strlen() function calculates the length of the string pointed to by s, excluding the terminating null byte ('\0').
 
-## memset
-## bzero
-## memcpy
-## memmove
+```c
+size_t	ft_strlen(char *str)
+{
+	size_t	i;
+
+	i = 0;
+	while (str[i] != '\0')
+		i++;
+	return (i);
+}
+```
+This function ft_strlen calculates the length of a string by iterating through each character until it encounters the null terminator '\0', which marks the end of the string.
+
+The breakdown:
+* It initializes a variable i of type size_t to store the length of the string.
+* It sets i to 0 initially.
+* It enters a while loop that continues until it finds the null terminator '\0'.
+* Inside the loop, it increments i to move to the next character.
+* Once the null terminator is encountered, the loop exits.
+* Finally, it returns the value of i, which represents the length of the string.
+
 ## strlcpy
 ## strlcat
-## toupper
-## tolower
 ## strchr
 ## strchr
 ## strrchr
 ## strncmp
+## strnstr
+
+## memset
+## bzero
+## memcpy
+## memmove
+
 ## memchr
 ## memcmp
-## strnstr
 ## atoi
