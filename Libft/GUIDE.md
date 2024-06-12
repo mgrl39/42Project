@@ -16,7 +16,7 @@ int	ft_isalpha(int c)
 	return (0);
 }
 ```
-
+![Descripción de la imagen](../_img/diagrams/ft_isalpha.png)
 
 The function checks if the character falls within either of the following ranges:
 * From 'a' to 'z' (ASCII values of lowercase letters).
