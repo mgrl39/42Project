@@ -181,6 +181,9 @@ The breakdown:
 ### strnstr
 
 ### memset
+#### The difference between unsigned char and char
+![ft_tolower image](../_img/info/ft_memset1.png)
+![ft_tolower image](../_img/info/ft_memset2.png)
 ### bzero
 ### memcpy
 ### memmove
