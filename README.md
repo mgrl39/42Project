@@ -10,9 +10,10 @@ This repository documents my journey at 42. It tracks everything I've been worki
 
 ## Clone the repo
 ```bash
-bash -c "$(curl https://doncom.me/42.sh)"
+git clone https://github.com/mgrl39/49Project
 ```
 or using
+
 ```bash
-git clone https://github.com/mgrl39/49Project
+bash -c "$(curl https://doncom.me/42.sh)"
 ```
