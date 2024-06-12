@@ -183,7 +183,8 @@ The breakdown:
 ### memset
 #### The difference between unsigned char and char
 ![why unsigned char in memset](../_img/info/ft_memset1.png)
-![Link to the first image](https://www.emblogic.com/blog/05/memsetmemmovememcopy-function/)
+
+[Link to the first image](https://www.emblogic.com/blog/05/memsetmemmovememcopy-function/)
 ![unsigned char and char difference](../_img/info/ft_memset2.png)
 ![Link to the second image](https://es.stackoverflow.com/questions/461245/cual-es-la-diferencia-entre-char-y-unsigned-char-en-c)
 ### bzero
