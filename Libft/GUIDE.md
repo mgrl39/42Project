@@ -111,7 +111,7 @@ If the character's ASCII value falls within this range, the function returns 1, 
 
 If  c is a lowercase letter, toupper() returns its uppercase equivalent, if an uppercase representation exists in the current locale.  Otherwise, it returns c. 
 
-`int toupper(int c);`
+`int ft_toupper(int c);`
 
 The value returned is that of the converted letter, or c if the conversion was not possible.
 
@@ -128,7 +128,7 @@ int	ft_toupper(int c)
 
 If  c is an uppercase letter, tolower() returns its lowercase equivalent, if a lowercase representation exists in the current locale.  Otherwise, it returns c.
 
-`int tolower(int c);`
+`int ft_tolower(int c);`
 
 The value returned is that of the converted letter, or c if the conversion was not possible.
 
