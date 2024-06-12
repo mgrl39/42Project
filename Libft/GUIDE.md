@@ -181,6 +181,22 @@ The breakdown:
 ### strnstr
 
 ### memset
+```c
+void	*ft_memset(void *s, int c, size_t n)
+{
+	size_t	i;
+	unsigned char		*p;
+
+	i = 0;
+	p = (unsigned char *)s;
+	while (i < n)
+	{
+		p[i] = c;
+		i++;
+	}
+	return (p);
+}
+```
 #### The difference between unsigned char and char
 ![why unsigned char in memset](../_img/info/ft_memset1.png)
 [Link to the first image](https://www.emblogic.com/blog/05/memsetmemmovememcopy-function/)
