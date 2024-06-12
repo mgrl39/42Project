@@ -16,7 +16,7 @@ int	ft_isalpha(int c)
 	return (0);
 }
 ```
-![mermaid-diagram-2024-06-12-083902](https://github.com/mgrl39/42Project/assets/170405410/0eb6c84e-80b5-402d-87d6-29f366bc667d)
+
 
 The function checks if the character falls within either of the following ranges:
 * From 'a' to 'z' (ASCII values of lowercase letters).
