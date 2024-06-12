@@ -1,7 +1,7 @@
 # 42Project - mgrl39
 This repository documents my journey at 42. It tracks everything I've been working on during my time there. 
 
-## challenges
+## Challenges
 | Challenges             | Description                                                              |
 |------------------------|--------------------------------------------------------------------------|
 | **[C-Piscine](C-Piscine/)**          | The C-Piscine directory contains several subdirectories, each representing a set of exercises from c00 to c06. |
