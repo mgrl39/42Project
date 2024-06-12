@@ -13,8 +13,8 @@ First day: Mon Jun 10 15:05
 | 04     | ft_isascii  | ⚠️       |
 | 05     | ft_isprint  | ⚠️       |
 | 06     | ft_strlen   | ⚠️       |
-| 07     | ft_memset   | 🚧       |
-| 08     | ft_bzero    | 🚧       |
+| 07     | ft_memset   | ⚠️       |
+| 08     | ft_bzero    | ⚠️       |
 | 09     | ft_memcpy   | 🚧       |
 | 10     | ft_memmove  | 🚧       |
 | 11     | ft_strlcpy  | 🚧       |
