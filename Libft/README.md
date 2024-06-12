@@ -2,7 +2,7 @@ First day: Mon Jun 10 15:05
 
 
 > [!WARNING]  
-> These functions have not been verified yet. I cannot demonstrate that they work correctly.
+> These functions have not been verified yet. **_I cannot demonstrate that they work correctly._**
 ### ⚠️ Mandatory Part: `libc` Functions
 
 | Number | Function    | Status  |
