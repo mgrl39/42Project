@@ -133,7 +133,7 @@ The value returned is that of the converted letter, or c if the conversion was n
 ```c
 int	ft_tolower(int c)
 {
-	if (c >= 65 && c >= 90)
+	if (c >= 65 && c <= 90)
 		return (c + 32);
 	return (c);
 }
