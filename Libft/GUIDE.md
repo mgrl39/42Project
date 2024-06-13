@@ -240,6 +240,38 @@ flowchart TD
 ### strchr
 ### strrchr
 ### strncmp
+
+```c
+int	ft_strncmp(const char *s1, const char *s2, size_t n)
+{
+	unsigned char	*str1;
+	unsigned char	*str2;
+	size_t			i;
+
+	str1 = (unsigned char *)s1;
+	str2 = (unsigned char *)s2;
+	i = 0;
+	if (n == 0)
+		return (0);
+	while (str1[i] != '\0' && str1[i] == str2[i] && i < n - 1)
+		i++;
+	return (str1[i] - str2[i]);
+}
+```
+```mermaid
+flowchart TD
+    A["Start ft_strncmp(s1, s2, n)"] --> B["Initialize unsigned char *str1 = (unsigned char *)s1"]
+    B --> C["Initialize unsigned char *str2 = (unsigned char *)s2"]
+    C --> D["Initialize size_t i = 0"]
+    D --> E["Check if n == 0"]
+    E -- Yes --> I["Return 0"]
+    E -- No --> F["While str1[i] != '\\0' and str1[i] == str2[i] and i < n - 1"]
+    F -- Yes --> G["Increment i"]
+    G --> F
+    F -- No --> H["Return str1[i] - str2[i]"]
+    H --> J["End ft_strncmp"]
+    I --> J
+```
 ### strnstr
 
 ### memset
