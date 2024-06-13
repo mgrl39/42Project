@@ -282,6 +282,18 @@ void	ft_bzero(void *s, size_t n)
 	}
 }
 ```
+
+```mermaid
+flowchart TD
+    A["Start"] --> B["Initialize i = 0"]
+    B --> C["Initialize p = (unsigned char *)s"]
+    C --> D["i < n"]
+    D -- Yes --> E["p[i] = '\0'"]
+    E --> F["Increment i"]
+    F --> D
+    D -- No --> G["End"]
+    G --> H["Return"]
+```
 ### memcpy
 ### memmove
 ### memchr
