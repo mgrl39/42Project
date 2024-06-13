@@ -27,7 +27,7 @@ First day: Mon Jun 10 15:05
 | 18     | ft_memchr   | 🚧       |
 | 19     | ft_memcmp   | 🚧       |
 | 20     | ft_strnstr  | 🚧       |
-| 21     | ft_atoi     | 🚧       |
+| 21     | ft_atoi     | ✅       |
 | 22     | ft_calloc   | 🚧       |
 | 23     | ft_strdup   | 🚧       |
 
@@ -67,6 +67,7 @@ First day: Mon Jun 10 15:05
 |-------------|---------|
 | Repository  | 🚧       |
 | Files       | 🚧       |
+
 | Instruction | Details                                                                                 |
 |-------------|-----------------------------------------------------------------------------------------|
 | Repository  | Submit your project in your assigned Git repository. Only work in the repository will be evaluated. |
