@@ -227,12 +227,12 @@ The breakdown:
 
 ```mermaid
 flowchart TD
-    A[Start] --> B[i = 0]
-    B --> C{str[i] != '\0'}
-    C -->|Yes| D[i++]
+    A["Start"] --> B["i = 0"]
+    B --> C{"str[i] != '\\0'"}
+    C -->|Yes| D["i++"]
     D --> C
-    C -->|No| E[Return i]
-    E --> F[End]
+    C -->|No| E["Return i"]
+    E --> F["End"]
 ```
 ### strlcpy
 ### strlcat
