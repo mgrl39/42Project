@@ -23,7 +23,16 @@ The function checks if the character falls within either of the following ranges
 
 If the character falls within either of these ranges, the function returns 1, indicating it's alphabetic. Otherwise, it returns 0.
 
-![ft_isalpha image](../_img/diagrams/ft_isalpha.png)
+```mermaid
+flowchart TD
+    A[Start] --> B{Is c between 'a' and 'z'?}
+    B -->|Yes| D[Return 1]
+    B -->|No| C{Is c between 'A' and 'Z'?}
+    C -->|Yes| D[Return 1]
+    C -->|No| E[Return 0]
+    D --> F[End]
+    E --> F[End]
+```
 ### isdigit
 **checks for a digit (0 through 9).**
 
