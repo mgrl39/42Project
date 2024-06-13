@@ -53,7 +53,14 @@ This ft_isdigit function is designed to check whether a character is a digit. It
 
 If the character falls within this range, the function returns 1, indicating it's a digit. Otherwise, it returns 0.
 
-![ft_isdigit image](../_img/diagrams/ft_isdigit.png)
+```mermaid
+flowchart TD
+    A[Start] --> B{Is c between 48 and 57?}
+    B -->|Yes| C[Return 1]
+    B -->|No| D[Return 0]
+    C --> E[End]
+    D --> E[End]
+```
 ### isalnum
 **checks for an alphanumeric character; it is equivalent to (isalpha(c) || isdigit(c)).**
 
@@ -78,7 +85,18 @@ The function checks if the character falls within any of the following ranges:
 
 If the character falls within any of these ranges, the function returns 1, indicating it's alphanumeric. Otherwise, it returns 0.
 
-![ft_isalnum image](../_img/diagrams/ft_isalnum.png)
+```mermaid
+flowchart TD
+    A[Start] --> B{Is c between 48 and 57?}
+    B -->|Yes| E[Return 1]
+    B -->|No| C{Is c between 65 and 90?}
+    C -->|Yes| E[Return 1]
+    C -->|No| D{Is c between 97 and 122?}
+    D -->|Yes| E[Return 1]
+    D -->|No| F[Return 0]
+    E --> G[End]
+    F --> G[End]
+```
 ### isascii
 **checks whether c is a 7-bit unsigned char value that fits into the ASCII character set.**
 
@@ -97,8 +115,14 @@ int	ft_isascii(int c)
 This ft_isascii function is designed to check whether a character is a valid ASCII character. It verifies if the character's ASCII value falls within the range of 0 to 127, inclusive, which covers all standard ASCII characters.
 
 If the character's ASCII value falls within this range, the function returns 1, indicating it's a valid ASCII character. Otherwise, it returns 0.
-
-![ft_isascii image](../_img/diagrams/ft_isascii.png)
+```mermaid
+flowchart TD
+    A[Start] --> B{Is c between 0 and 127?}
+    B -->|Yes| C[Return 1]
+    B -->|No| D[Return 0]
+    C --> E[End]
+    D --> E[End]
+```
 ### isprint
 **checks for any printable character including space.**
 
@@ -117,7 +141,14 @@ int	ft_isprint(char c)
 This ft_isprint function is designed to check whether a character is a printable character. It checks if the character's ASCII value falls within the range of 32 to 127, inclusive. In ASCII, this range covers all printable characters, including letters, digits, punctuation marks, and some special characters like space.
 
 If the character's ASCII value falls within this range, the function returns 1, indicating it's a printable character. Otherwise, it returns 0.
-![ft_isprint image](../_img/diagrams/ft_isprint.png)
+```mermaid
+flowchart TD
+    A[Start] --> B{Is c between 32 and 127?}
+    B -->|Yes| C[Return 1]
+    B -->|No| D[Return 0]
+    C --> E[End]
+    D --> E[End]
+```
 ### toupper
 
 If  c is a lowercase letter, toupper() returns its uppercase equivalent, if an uppercase representation exists in the current locale.  Otherwise, it returns c. 
@@ -134,7 +165,14 @@ int	ft_toupper(int c)
 	return (c);
 }
 ```
-![ft_toupper image](../_img/diagrams/ft_toupper.png)
+```mermaid
+flowchart TD
+    A[Start] --> B{Is c between 97 and 122?}
+    B -->|Yes| C[c = c - 32]
+    B -->|No| D[Return c]
+    C --> D[Return c]
+    D --> E[End]
+```
 ### tolower
 
 If  c is an uppercase letter, tolower() returns its lowercase equivalent, if a lowercase representation exists in the current locale.  Otherwise, it returns c.
@@ -151,7 +189,14 @@ int	ft_tolower(int c)
 	return (c);
 }
 ```
-![ft_tolower image](../_img/diagrams/ft_tolower.png)
+```mermaid
+flowchart TD
+    A[Start] --> B{Is c between 65 and 90?}
+    B -->|Yes| C[Return c + 32]
+    B -->|No| D[Return c]
+    C --> E[End]
+    D --> E[End]
+```
 ### strlen
 **calculate the length of a string**
 
@@ -180,7 +225,15 @@ The breakdown:
 * Once the null terminator is encountered, the loop exits.
 * Finally, it returns the value of i, which represents the length of the string.
 
-![ft_strlen image](../_img/diagrams/ft_strlen.png)
+```mermaid
+flowchart TD
+    A[Start] --> B[i = 0]
+    B --> C{str[i] != '\0'}
+    C -->|Yes| D[i++]
+    D --> C
+    C -->|No| E[Return i]
+    E --> F[End]
+```
 ### strlcpy
 ### strlcat
 ### strchr
