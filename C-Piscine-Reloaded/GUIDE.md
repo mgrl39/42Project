@@ -138,6 +138,19 @@ int	ft_recursive_factorial(int nb)
 ```
 ## 14 - ft_sqrt
 ```c
+int	ft_sqrt(int nb)
+{
+	int	sqrt;
+
+	if (nb < 0)
+		return (0);
+	sqrt = 0;
+	while (sqrt * sqrt < nb)
+		sqrt++;
+	if (sqrt * sqrt == nb)
+		return (sqrt);
+	return (0);
+}
 ```
 ## 15 - ft_putstr
 ```c
