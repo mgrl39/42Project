@@ -204,6 +204,22 @@ void	*ft_memset(void *s, int c, size_t n)
 ![unsigned char and char difference](../_img/info/ft_memset2.png)
 [Link to the second image](https://es.stackoverflow.com/questions/461245/cual-es-la-diferencia-entre-char-y-unsigned-char-en-c)
 ### bzero
+```c
+void	ft_bzero(void *s, size_t n)
+{
+	size_t	i;
+	unsigned char	*p;
+
+		
+	i = 0;
+	p = (unsigned char *)s;
+	while (i < n)
+	{
+		p[i] = '\0';
+		i++;
+	}
+}
+```
 ### memcpy
 ### memmove
 ### memchr
