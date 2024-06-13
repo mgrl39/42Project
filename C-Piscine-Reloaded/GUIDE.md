@@ -137,16 +137,44 @@ int	ft_recursive_factorial(int nb)
 }
 ```
 ## 14 - ft_sqrt
+```c
+```
 ## 15 - ft_putstr
+```c
+```
 ## 16 - ft_strlen
+```c
+```
 ## 17 - ft_strcmp
+```c
+```
 ## 18 - ft_print_params
+```c
+```
 ## 19 - ft_sort_params
+```c
+```
 ## 20 - ft_strdup
+```c
+```
 ## 21 - ft_range
+```c
+```
 ## 22 - ft_abs.h
+```c
+```
 ## 23 - ft_point.h
+```c
+```
 ## 24 - Makefile
+```makefile
+```
 ## 25 - ft_foreach
+```c
+```
 ## 26 - ft_count_if
+```c
+```
 ## 27 - display_file
+```c
+```
