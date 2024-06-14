@@ -16,4 +16,18 @@ int ft_sqrt(int nb)
     return (0);
 }
 ```
-![ft_sqrt.c](ft_sqrt.png)
+```mermaid
+flowchart TD
+    A[Start] --> B{Is nb < 0?}
+    B -->|Yes| C[Return 0]
+    B -->|No| D[Initialize sqrt = 0]
+    D --> E{sqrt * sqrt < nb}
+    E -->|Yes| F[Increment sqrt]
+    F --> E
+    E -->|No| G{sqrt * sqrt == nb}
+    G -->|Yes| H[Return sqrt]
+    G -->|No| I[Return 0]
+    C --> J[End]
+    H --> J
+    I --> J
+```
