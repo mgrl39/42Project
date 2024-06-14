@@ -1,4 +1,4 @@
-```c
+```mermaid
 flowchart TD
     A("Start ft_putstr") --> B("Initialize i = 0")
     B --> C{"str[i] != '\\0'"}
