@@ -191,7 +191,7 @@ int	ft_tolower(int c)
 ```
 ```mermaid
 flowchart TD
-    A[Start] --> B{Is c between 65 and 90?}}
+    A[Start] --> B{Is c between 65 and 90?}
     B -->|Yes| C[c = c + 32]
     B -->|No| D[Return c]
     C --> D[Return c]
