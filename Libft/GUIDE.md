@@ -188,6 +188,7 @@ int	ft_tolower(int c)
 		c += 32;
 	return (c);
 }
+```
 ```mermaid
 flowchart TD
     A[Start] --> B{Is c between 65 and 90?}}
@@ -195,7 +196,6 @@ flowchart TD
     B -->|No| D[Return c]
     C --> D[Return c]
     D --> E[End]
-
 ```
 ### strlen
 **calculate the length of a string**
