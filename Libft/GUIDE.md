@@ -41,7 +41,7 @@ flowchart TD
 The values returned are nonzero if the character c falls into the tested class, and zero if not.
 
 ```c
-int	ft_isdigit(char c)
+int	ft_isdigit(int c)
 {
 	if (c >= 48 && c <= 57)
 		return (1);
