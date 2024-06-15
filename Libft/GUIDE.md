@@ -205,11 +205,13 @@ flowchart TD
 The strlen() function calculates the length of the string pointed to by s, excluding the terminating null byte ('\0').
 
 ```c
-size_t	ft_strlen(char *str)
+size_t	ft_strlen(const char *str)
 {
 	size_t	i;
 
 	i = 0;
+	if (!str)
+		return (i);
 	while (str[i] != '\0')
 		i++;
 	return (i);
