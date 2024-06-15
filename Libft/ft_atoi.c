@@ -34,7 +34,7 @@ int	ft_atoi(const char *nptr)
 		if (nptr[i] == '-')
 			mult *= -1;
 	}
-	while (nptr[i] >= 48 && nptr[i] <= 56)
+	while (nptr[i] >= 48 && nptr[i] <= 57)
 	{
 		res = res * 10 + (nptr[i] - 48);
 		i++;
