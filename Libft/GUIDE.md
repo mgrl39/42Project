@@ -131,7 +131,7 @@ flowchart TD
 The values returned are nonzero if the character c falls into the tested class, and zero if not.
 
 ```c
-int	ft_isprint(char c)
+int	ft_isprint(int c)
 {
 	if (c >= 32 && c <= 127)
 		return (1);
