@@ -219,22 +219,26 @@ size_t	ft_strlen(const char *str)
 ```
 This function ft_strlen calculates the length of a string by iterating through each character until it encounters the null terminator '\0', which marks the end of the string.
 
-The breakdown:
-* It initializes a variable i of type size_t to store the length of the string.
-* It sets i to 0 initially.
-* It enters a while loop that continues until it finds the null terminator '\0'.
-* Inside the loop, it increments i to move to the next character.
-* Once the null terminator is encountered, the loop exits.
-* Finally, it returns the value of i, which represents the length of the string.
+The `ft_strlen` function calculates the length of a string by iterating through each character until it encounters the null terminator `'\0'`, which signifies the end of the string.
+
+**Step-by-Step Breakdown:**
+1. **Initialization:** A variable `i` of type `size_t` is initialized to store the length of the string.
+2. **Null Check:** The function checks if the input string `str` is `NULL`. If it is, the function returns 0.
+3. **Iteration:** A `while` loop runs, continuing as long as the current character `str[i]` is not the null terminator `'\0'`.
+4. **Increment:** Inside the loop, `i` is incremented to move to the next character.
+5. **Completion:** When the loop encounters the null terminator, it exits.
+6. **Return:** The function returns the value of `i`, which is the length of the string.
 
 ```mermaid
 flowchart TD
     A["Start"] --> B["i = 0"]
-    B --> C{"str[i] != '\0'"}
-    C -->|Yes| D["i++"]
-    D --> C
-    C -->|No| E["Return i"]
-    E --> F["End"]
+    B --> C{"str is NULL?"}
+    C -->|Yes| D["Return 0"]
+    C -->|No| E["str[i] != '\0'"]
+    E -->|Yes| F["i++"]
+    F --> E
+    E -->|No| G["Return i"]
+    G --> H["End"]
 ```
 ### strlcpy
 ### strlcat
