@@ -185,14 +185,14 @@ The value returned is that of the converted letter, or c if the conversion was n
 int	ft_tolower(int c)
 {
 	if (c >= 65 && c <= 90)
-		return (c + 32);
+		c += 32;
 	return (c);
 }
 ```
 ```mermaid
 flowchart TD
     A[Start] --> B{Is c between 65 and 90?}
-    B -->|Yes| C[Return c + 32]
+    B -->|Yes| C[c = c + 32]
     B -->|No| D[Return c]
     C --> E[End]
     D --> E[End]
