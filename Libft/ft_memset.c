@@ -1,3 +1,4 @@
+
 #include "libft.h"
 #include <stdio.h>
 #include <string.h>
@@ -5,16 +6,16 @@
 void	*ft_memset(void *s, int c, size_t n)
 {
 	size_t	i;
-	unsigned char		*p;
+	unsigned char		*tmp_s;
 
 	i = 0;
-	p = (unsigned char *)s;
+	tmp_s = (unsigned char *)s;
 	while (i < n)
 	{
-		p[i] = c;
+		tmp_s[i] = c;
 		i++;
 	}
-	return (p);
+	return (tmp_s);
 }
 
 void	ft_putchar(char c)
