@@ -15,7 +15,7 @@ First day: Mon Jun 10 15:05
 | 06     | ft_strlen   | ✅       |
 | 07     | ft_memset   | ⚠️       |
 | 08     | ft_bzero    | ⚠️       |
-| 09     | ft_memcpy   | 🚧       |
+| 09     | ft_memcpy   | ⚠️       |
 | 10     | ft_memmove  | 🚧       |
 | 11     | ft_strlcpy  | 🚧       |
 | 12     | ft_strlcat  | 🚧       |
