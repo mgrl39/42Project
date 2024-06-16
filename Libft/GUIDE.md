@@ -355,7 +355,18 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	return (0);
 }
 ```
-
+```mermaid
+flowchart TD
+    A["Start"] --> B["Initialize str1, str2, i"]
+    B --> C["i < n?"]
+    C -->|Yes| D["str1[i] != str2[i]?"]
+    D -->|Yes| E["Return str1[i] - str2[i]"]
+    E --> F["End"]
+    D -->|No| G["i++"]
+    G --> C
+    C -->|No| H["Return 0"]
+    H --> F["End"]
+```
 ### atoi
 
 ```c
