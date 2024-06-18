@@ -243,7 +243,44 @@ flowchart TD
 ### strlcpy
 ### strlcat
 ### strchr
-### strchr
+```c
+#include "libft.h"
+
+char	*ft_strchr(const char *s, int c)
+{
+	unsigned char	*str;
+	unsigned char	uc;
+	size_t			i;
+
+	str = (unsigned char *)s;
+	uc = (unsigned char)c;
+	i = 0;
+	while (str[i] != '\0')
+	{
+		if (str[i] == uc)
+			return ((char *)&str[i]);
+		i++;
+	}
+	if (uc == '\0')
+		return ((char *)&str[i]);
+	return (NULL);
+}
+```
+```mermaid
+flowchart TD
+    A["Start"] --> B["Initialize str, uc, i"]
+    B --> C["str[i] != '\0'?"]
+    C -->|Yes| D["str[i] == uc?"]
+    D -->|Yes| E["Return (char *)&str[i]"]
+    E --> F["End"]
+    D -->|No| G["i++"]
+    G --> C
+    C -->|No| H["uc == '\0'?"]
+    H -->|Yes| I["Return (char *)&str[i]"]
+    I --> F
+    H -->|No| J["Return NULL"]
+    J --> F
+```
 ### strrchr
 ### strncmp
 
