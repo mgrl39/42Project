@@ -272,13 +272,14 @@ flowchart TD
     B --> C["str[i] != '\0'?"]
     C -->|Yes| D["str[i] == uc?"]
     D -->|Yes| E["Return (char *)&str[i]"]
-    D -->|No| F["i++"]
-    F --> C
-    C -->|No| G["uc == '\0'?"]
-    G -->|Yes| H["Return (char *)&str[i]"]
-    G -->|No| I["Return NULL"]
-    H --> J["End"]
-    I --> J["End"]
+    E --> F["End"]
+    D -->|No| G["i++"]
+    G --> C
+    C -->|No| H["uc == '\0'?"]
+    H -->|Yes| I["Return (char *)&str[i]"]
+    I --> F
+    H -->|No| J["Return NULL"]
+    J --> F
 ```
 ### strrchr
 ### strncmp
