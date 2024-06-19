@@ -431,3 +431,28 @@ int	ft_atoi(const char *nptr)
 	return (res * mult);
 }
 ```
+## strdup
+## calloc
+```c
+#include "libft.h"
+
+void	*ft_calloc(size_t nmemb, size_t size)
+{
+	void	*ptr;
+
+	ptr = malloc(nmemb * size);
+	if (!ptr)
+		return (NULL);
+	ft_bzero(ptr, size * nmemb);
+	return (ptr);
+}
+```
+```mermaid
+graph TD;
+    A[Start] --> B[Memory Allocation];
+    B --> C{Success in malloc?};
+    C -- Yes --> D[Initialize to zero using ft_bzero];
+    C -- No --> E[Return NULL];
+    D --> F[Return pointer ptr];
+    E --> F;
+```
