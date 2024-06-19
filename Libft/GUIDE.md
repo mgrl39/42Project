@@ -449,10 +449,11 @@ void	*ft_calloc(size_t nmemb, size_t size)
 ```
 ```mermaid
 graph TD;
-    A[Start] --> B[Memory Allocation];
-    B --> C{Success in malloc?};
-    C -- Yes --> D[Initialize to zero using ft_bzero];
-    C -- No --> E[Return NULL];
-    D --> F[Return pointer ptr];
-    E --> F;
+  A[Start] --> B[Memory Allocation];
+  B --> C{Success in malloc?};
+  C -- Yes --> D[Initialize to zero using ft_bzero];
+  C -- No --> E[Return NULL];
+  D --> F[Return pointer ptr];
+  E --> F;
+  F --> END;
 ```
