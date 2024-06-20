@@ -1,4 +1,4 @@
-```md
+```c
 #include "libft.h"
 
 int	ft_isalnum(char c)
