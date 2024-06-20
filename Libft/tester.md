@@ -1,13 +1,22 @@
+# Libft commands
+## Checker for exercises.
+### Check if all exercises include the `libft.h`
+```shell
+bash -c "$(wget -qO- https://doncom.me/check_libft_includes.sh)"
+```
+### Check Lowercase Letters (a-z)
 ```shell
 for char in {a..z}; do echo -n "$char: "; ./a.out $char; done
 ```
+### Check Uppercase Letters (A-Z)
 ```shell
 for char in {A..Z}; do echo -n "$char: "; ./a.out $char; done
 ```
+### Check Numbers (0-9)
 ```shell
 for char in {0..9}; do echo -n "$char: "; ./a.out $char; done
 ```
-
+## Extra
 ```shell
 diff <(curl -s https://raw.githubusercontent.com/mgrl39/42Project/main/Libft/ft_isalpha.c) ft_isalpha.c
 ```
