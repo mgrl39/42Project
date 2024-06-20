@@ -13,21 +13,21 @@ First day: Mon Jun 10 15:05
 | 04     | ft_isascii  | ✅       |
 | 05     | ft_isprint  | ✅       |
 | 06     | ft_strlen   | ✅       |
-| 07     | ft_memset   | ⚠️       |
-| 08     | ft_bzero    | ⚠️       |
+| 07     | ft_memset   | ✅       |
+| 08     | ft_bzero    | ✅       |
 | 09     | ft_memcpy   | ⚠️       |
 | 10     | ft_memmove  | 🚧       |
 | 11     | ft_strlcpy  | 🚧       |
 | 12     | ft_strlcat  | 🚧       |
-| 13     | ft_toupper  | ⚠️       |
-| 14     | ft_tolower  | ⚠️       |
-| 15     | ft_strchr   | 🚧       |
-| 16     | ft_strrchr  | 🚧       |
+| 13     | ft_toupper  | ✅       |
+| 14     | ft_tolower  | ✅       |
+| 15     | ft_strchr   | ✅       |
+| 16     | ft_strrchr  | ✅       |
 | 17     | ft_strncmp  | 🚧       |
 | 18     | ft_memchr   | 🚧       |
-| 19     | ft_memcmp   | 🚧       |
+| 19     | ft_memcmp   | ✅       |
 | 20     | ft_strnstr  | 🚧       |
-| 21     | ft_atoi     | ✅       |
+| 21     | ft_atoi     | 🚧       |
 | 22     | ft_calloc   | 🚧       |
 | 23     | ft_strdup   | 🚧       |
 
