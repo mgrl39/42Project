@@ -1,19 +1,10 @@
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+#include "libft.h"
 
-void	ft_putstr(char *str)
-{
-	int	i;
-
-	i = 0;
-	while (str[i] != '\0')
-	{
-		ft_putchar(str[i]);
-		i++;
-	}
-}
+/* The memcmp() function compares the firsst n bytes of s1 and s2
+ * each interpreted a unsigned char.
+ * Returns an integeer less than, equal to, or greater than zero.
+ * If n is zero, the return value is zero.
+ */
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
@@ -32,24 +23,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-
-#include <stdio.h>
-
-int main() {
-    char mem1[] = "abcdef";
-    char mem2[] = "abcdez";
-    
-    int result = ft_memcmp(mem1, mem2, 6);
-    
-    if (result < 0) {
-        printf("mem1 is less than mem2\n");
-    } else if (result > 0) {
-        printf("mem1 is greater than mem2\n");
-    } else {
-        printf("mem1 is equal to mem2\n");
-    }
-    
-    return 0;
-}
-
