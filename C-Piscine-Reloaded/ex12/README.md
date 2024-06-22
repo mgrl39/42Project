@@ -1,6 +1,15 @@
 # Exercise with example
 
-
+```mermaid
+graph TD;
+    A["Start ft_iterative_factorial(nb)"] -->|nb < 0 or nb > 12| B["Return 0"];
+    A -->|nb >= 0 and nb <= 12| C["Initialize result = 1"];
+    C --> D["While nb > 1"];
+    D -->|True| E["result *= nb"];
+    E --> F["nb--"];
+    F --> D;
+    D -->|False| G["Return result"];
+```
 ```c
 /*
 #include <stdio.h>
@@ -12,7 +21,7 @@ int	ft_iterative_factorial(int nb)
 	int	result;
 
 	result = 1;
-	if (nb < 0)
+	if (nb < 0 || nb > 12)
 		return (0);
 	while (nb > 1)
 	{
