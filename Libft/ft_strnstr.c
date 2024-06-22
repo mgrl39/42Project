@@ -6,6 +6,7 @@
  * !*little: Verifica si little es una cadena vacía utilizando !*little, que es una forma común de verificar si el primer carácter de little es '\0'.
  * !little: Verifica si little es NULL, lo cual también indica que little es una cadena vacía o no se ha proporcionado.
  */
+
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
 	size_t	i;
@@ -18,7 +19,7 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	{
 		j = 0;
 		while (little[j] != '\0' && \
-				big[i + j] == little[j] && (i + j) < len)
+				big[i + j] == little[j] && ((i + j) < len))
 			j++;
 		if (little[j] == '\0')
 			return ((char *)&big[i]);
