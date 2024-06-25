@@ -8,3 +8,16 @@ graph TD;
     F --> G[Return New Node];
     C -- No --> H[Return NULL];
 ```
+```mermaid
+classDiagram
+    class t_list {
+        void *content
+        t_list *next
+    }
+
+    class ft_lstnew {
+        + ft_lstnew(void *content)
+    }
+
+    ft_lstnew --> t_list
+```
