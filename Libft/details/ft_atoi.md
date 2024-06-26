@@ -244,3 +244,23 @@ int	main(int argc, char *argv[])
 	return (0);
 }
 ```
+
+```mermaid
+flowchart TD
+    A["Start"] --> B["Initialize i = 0, res = 0, mult = 1"]
+    B --> C{"Is nptr[i] whitespace?"}
+    C -->|Yes| D["Increment i"]
+    D --> C
+    C -->|No| E{"Is nptr[i] '-' or '+'?"}
+    E -->|Yes| F{"Is nptr[i] '-'?"}
+    F -->|Yes| G["Set mult to -1"]
+    F -->|No| H["Set mult to 1"]
+    G --> I["Increment i"]
+    H --> I
+    E -->|No| J{"Is nptr[i] a digit?"}
+    I --> J
+    J -->|Yes| K["res = res * 10 + (nptr[i] - 48)"]
+    K --> L["Increment i"]
+    L --> J
+    J -->|No| M["Return res * mult"]
+```
