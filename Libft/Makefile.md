@@ -1,3 +1,5 @@
+Makefile with bonus
+```Makefile
 LIB = ar rcs
 RM = rm -f
 
@@ -47,3 +49,4 @@ fclean: clean
 re: fclean all
 
 rebonus: fclean bonus
+```
