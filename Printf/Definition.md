@@ -2,7 +2,7 @@
 man va_start
 ```
 ## SYNOPSIS
-```shell
+```c
 SYNOPSIS
        #include <stdarg.h>
 
