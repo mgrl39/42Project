@@ -1,3 +1,9 @@
+First day: Tuesday Jul 16 21:17
+
+
+> [!CAUTION]  
+> These functions have not been verified yet. **_I cannot demonstrate that they work correctly._**
+
 ### Simplified Guide for Reprogramming `printf()` using `libft`
 
 To reprogram `printf()` with `libft`, follow these streamlined steps:
