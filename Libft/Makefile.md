@@ -1,4 +1,4 @@
-Makefile with bonus
+Makefile with bonus but not 100% ok
 ```Makefile
 LIB = ar rcs
 RM = rm -f
