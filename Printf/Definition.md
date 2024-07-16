@@ -18,7 +18,7 @@ If there is no next argument, or if type is not compatible with the type of the 
 If ap is passed to a function that uses va_arg(ap, type), then the value of ap is undefined after the return of that function.
 ### va_end()
 Each invocation of va_start() must be matched by a corresponding invocation of va_end() in a the same function. After the call va_end(ap) the variable ap iss undefined. Multiple traversals of the list, each bracketed by va_start() and va_end() are possible. va_end() may be a macro or a function.
-  `va_copy()`
+### va_copy()
 The va_copy() macro copies the (previously initialized) variable argument list src to dest. The behavior is as iff va_start() were applied to dests with the same last argument, followed by the same number of va_arg() invocations that was used to reach the ccurrent state of src.
 An obvious implementation would have a va_list be a pointer to the stack frame of the variadic function. In such a setup (by far the most common) there seems nothing against aan assignment
         `va_list aq = ap;`
