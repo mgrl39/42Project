@@ -1,9 +1,12 @@
+```c
 #include "libft.h"
 
-/* ft_strchr function that returns a pointer to the first occurrence 
+/*
+ * ft_strchr() function that returns a pointer to the first occurrence 
  * of character 'c' in string 's'.
- * If 'c' is not found, it returns a pointer to the null terminator
- * at the end of 's'.
+ * If 'c' is not found and 'c' is not the null terminator '\0', it returns NULL.
+ * If 'c' is the null terminator '\0', it returns a pointer to the null
+ * terminator at the end of 's'.
  */
 
 char	*ft_strchr(const char *s, int c)
@@ -25,3 +28,4 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)&str[i]);
 	return (NULL);
 }
+```
