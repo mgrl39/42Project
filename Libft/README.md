@@ -2,45 +2,45 @@ First day: Mon Jun 10 15:05
 
 | Number | Function    | Status  |
 |--------|-------------|---------|
-| 01     | ft_isalpha  | ✅       |
-| 02     | ft_isdigit  | ✅       |
-| 03     | ft_isalnum  | ✅       |
-| 04     | ft_isascii  | ✅       |
-| 05     | ft_isprint  | ✅       |
-| 06     | ft_strlen   | ✅       |
-| 07     | ft_memset   | ✅       |
-| 08     | ft_bzero    | ✅       |
-| 09     | ft_memcpy   | ✅       |
-| 10     | ft_memmove  | ✅       |
-| 11     | ft_strlcpy  | ✅       |
-| 12     | ft_strlcat  | ✅       |
-| 13     | ft_toupper  | ✅       |
-| 14     | ft_tolower  | ✅       |
-| 15     | ft_strchr   | ✅       |
-| 16     | ft_strrchr  | ✅       |
-| 17     | ft_strncmp  | ✅       |
-| 18     | ft_memchr   | ✅       |
-| 19     | ft_memcmp   | ✅       |
-| 20     | ft_strnstr  | ✅       |
-| 21     | ft_atoi     | ✅       |
-| 22     | ft_calloc   | ✅       |
-| 23     | ft_strdup   | ✅       |
+| 01     | [ft_isalpha](ft_isalpha.md)  | ✅       |
+| 02     | [ft_isdigit](ft_isdigit.md)  | ✅       |
+| 03     | [ft_isalnum](ft_isalnum.md)  | ✅       |
+| 04     | [ft_isascii](ft_isascii.md)  | ✅       |
+| 05     | [ft_isprint](ft_isprint.md)  | ✅       |
+| 06     | [ft_strlen](ft_strlen.md)   | ✅       |
+| 07     | [ft_memset](ft_memset.md)   | ✅       |
+| 08     | [ft_bzero](ft_bzero.md)    | ✅       |
+| 09     | [ft_memcpy](ft_memcpy.md)   | ✅       |
+| 10     | [ft_memmove](ft_memmove.md)  | ✅       |
+| 11     | [ft_strlcpy](ft_strlcpy.md)  | ✅       |
+| 12     | [ft_strlcat](ft_strlcat.md)  | ✅       |
+| 13     | [ft_toupper](ft_toupper.md)  | ✅       |
+| 14     | [ft_tolower](ft_tolower.md)  | ✅       |
+| 15     | [ft_strchr](ft_strchr.md)   | ✅       |
+| 16     | [ft_strrchr](ft_strrchr.md)  | ✅       |
+| 17     | [ft_strncmp](ft_strncmp.md)  | ✅       |
+| 18     | [ft_memchr](ft_memchr.md)   | ✅       |
+| 19     | [ft_memcmp](ft_memcmp.md)   | ✅       |
+| 20     | [ft_strnstr](ft_strnstr.md)  | ✅       |
+| 21     | [ft_atoi](ft_atoi.md)     | ✅       |
+| 22     | [ft_calloc](ft_calloc.md)   | ✅       |
+| 23     | [ft_strdup](ft_strdup.md)   | ✅       |
 
 ### ⚠️ Additional Functions 
 
 | Number | Function       | Status  |
 |--------|----------------|---------|
-| 01     | ft_substr      | ✅       |
-| 02     | ft_strjoin     | ✅       |
-| 03     | ft_strtrim     | ✅       |
-| 04     | ft_split       | ✅       |
-| 05     | ft_itoa        | ✅       |
-| 06     | ft_strmapi     | ✅       |
-| 07     | ft_striteri    | ✅       |
-| 08     | ft_putchar_fd  | ✅       |
-| 09     | ft_putstr_fd   | ✅       |
-| 10     | ft_putendl_fd  | ✅       |
-| 11     | ft_putnbr_fd   | ✅       |
+| 01     | [ft_substr](ft_substr.md)      | ✅       |
+| 02     | [ft_strjoin](ft_strjoin.md)     | ✅       |
+| 03     | [ft_strtrim](ft_strtrim.md)     | ✅       |
+| 04     | [ft_split](ft_split.md)       | ✅       |
+| 05     | [ft_itoa](ft_itoa.md)        | ✅       |
+| 06     | [ft_strmapi](ft_strmapi.md)     | ✅       |
+| 07     | [ft_striteri](ft_striteri.md)    | ✅       |
+| 08     | [ft_putchar_fd](ft_putchar_fd.md)  | ✅       |
+| 09     | [ft_putstr_fd](ft_putstr_fd.md)   | ✅       |
+| 10     | [ft_putendl_fd](ft_putendl_fd.md)  | ✅       |
+| 11     | [ft_putnbr_fd](ft_putnbr_fd.md)   | ✅       |
 
 ### Bonus Part: List Manipulation Functions
 
