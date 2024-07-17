@@ -1,4 +1,10 @@
+```c
 #include "libft.h"
+
+/*
+ * ft_atoi() function converts the initial portion of the string pointed to
+ * by nptr to int. 
+ */
 
 int	ft_atoi(const char *nptr)
 {
@@ -18,9 +24,7 @@ int	ft_atoi(const char *nptr)
 		i++;
 	}
 	while (nptr[i] >= 48 && nptr[i] <= 57)
-	{
-		res = res * 10 + (nptr[i] - 48);
-		i++;
-	}
+		res = res * 10 + (nptr[i++] - 48);
 	return (res * mult);
 }
+```
