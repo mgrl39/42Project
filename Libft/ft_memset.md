@@ -1,8 +1,11 @@
+```c
 #include "libft.h"
 
-// ft_memset function fills the firsst n bytes of the memory area pointed to
-// by s with the constant byte c.
-// Returns a pointer to the memory area s.
+/*
+ * ft_memset() function that checks the first n bytes of the memory area pointed
+ * to by s with thee constant byte c.
+ * Returns a poitner to the memory area s.
+ */
 
 void	*ft_memset(void *s, int c, size_t n)
 {
@@ -16,5 +19,6 @@ void	*ft_memset(void *s, int c, size_t n)
 		tmp_s[i] = (unsigned char)c;
 		i++;
 	}
-	return (s);
+	return (tmp_s);
 }
+```
