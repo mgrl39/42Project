@@ -1,68 +1,53 @@
-This is not mine :)
-```md
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_itoa.c                                          :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: vvagapov <vvagapov@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/12 20:55:23 by vvagapov          #+#    #+#             */
-/*   Updated: 2022/11/12 21:57:39 by vvagapov         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+```c
 
 #include "libft.h"
 
-static int	count_digits(int n)
-{
-	int	res;
+/*
+ * ft_itoa() function converts an integer value to a null-terminator string.
+ * It allocates memory for the string, which must be freed by the caller.
+ * The memory allocation is necessary to initialize the string that will sotre
+ * the result of the integer to string conversion. 
+ */
 
-	if (!n)
-		return (1);
-	res = 0;
-	while (n)
-	{
-		res++;
-		n /= 10;
-	}
-	return (res);
-}
-
-static void	put_digits(char *dst, long int n, int last_i)
+static int	count_char(int n)
 {
-	while (n)
+	int	i;
+
+	i = 0;
+	if (n <= 0)
+		i++;
+	while (n != 0)
 	{
-		dst[--last_i] = n % 10 + '0';
-		n /= 10;
+		n = n / 10;
+		i++;
 	}
+	return (i);
 }
 
 char	*ft_itoa(int n)
 {
-	int			neg;
-	char		*res;
-	int			str_len;
-	long int	ln;
+	int				len;
+	char			*str;
+	long int		nlong;
 
-	neg = 0;
-	ln = n;
-	if (ln < 0)
-		neg = 1;
-	str_len = count_digits(ln) + neg;
-	res = (char *)malloc(sizeof(char) * (str_len + 1));
-	if (!res)
-		return (NULL);
-	res[str_len] = '\0';
-	if (neg)
+	nlong = n;
+	len = count_char(n);
+	str = (char *)ft_calloc(len + 1, sizeof(char));
+	if (!str)
+		return (0);
+	str[len] = '\0';
+	if (n == 0)
+		str[0] = '0';
+	if (n < 0)
 	{
-		res[0] = '-';
-		put_digits(res, ln * (-1), str_len);
+		str[0] = '-';
+		nlong = -nlong;
 	}
-	else if (!n)
-		res[0] = '0';
-	else
-		put_digits(res, ln, str_len);
-	return (res);
+	while (nlong != 0)
+	{
+		str[--len] = nlong % 10 + '0';
+		nlong = nlong / 10;
+	}
+	return (str);
 }
 ```
