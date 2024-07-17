@@ -1,6 +1,8 @@
+```c
 #include "libft.h"
 
-/* ft_strrchr function that returns a pointer to the last
+/* 
+ * ft_strrchr() function that returns a pointer to the last
  * occurrence of character 'c' in string 's'.
  * If 'c' is not found, it returns NULL.
  */
@@ -22,7 +24,8 @@ char	*ft_strrchr(const char *s, int c)
 			res = (char *)&str[i];
 		i++;
 	}
-	if (str[i] == uc)
+	if (uc == '\0')
 		res = (char *)&str[i];
 	return (res);
 }
+```
