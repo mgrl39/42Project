@@ -1,55 +1,50 @@
-title: bitbrain
-url: https://doncom.me/42Project/
-author: bitbrain
-email: miguel-gonzalez@gmx.de
-description: > # this means to ignore newlines until "show_exerpts:"
-  Miguel is a software engineer and indie game developer currently based in the UK.
-  <br/>He occasionally blogs about software design, continuous integration and game development with Godot Engine.
-show_excerpts: false # set to true to show excerpts on the homepage
+# Configuración del sitio
+title: Tu Sitio
+description: Descripción de tu sitio
+url: https://mgrl39.github.io  # Asegúrate de poner tu URL de GitHub Pages
 
+# Configuración de Jekyll
+theme: jekyll-dash
+markdown: kramdown
 paginate: 5
 paginate_path: "/blog/page:num/"
 
-tag_permalink_style: pretty
-tag_page_layout: tag_page
-tag_page_dir: tag
+# Configuración de Disqus
+disqus:
+  shortname: <tu-shortname-de-disqus>  # Si usas Disqus, coloca aquí tu shortname
 
-# jekyll-dash date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+# Configuración de la fecha
 dash:
   date_format: "%b %-d, %Y"
 
-  disqus:
-    shortname: doncom-me
+# Configuración de la animación de entrada de las publicaciones
+animation_speed: 50
 
-  # generate social links in footer
-  # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
-  social_links:
-    - url: https://soundcloud.com/myrealityde
-      icon: soundcloud
-      color: orange
-    - url: https://twitter.com/bitbrain
-      icon: twitter-square
-      color: cyan
-    - url: https://bitbrain.itch.io
-      icon: itch-io
-      color: red
-    - url: https://www.twitch.tv/bitbrain_
-      icon: twitch
-      color: purple
-    - url: https://www.youtube.com/@bitbraindev
-      icon: youtube
-      color: red
-    - url: https://github.com/bitbrain
-      icon: github-square
-      color: yellow
-      
-  avatar_source: local
-  avatar_path: /public/avatar.gif
+# Configuración del soporte RTL
+rtl: false
 
-# Build settings
-remote-theme: jekyll-dash
+# Configuración del avatar
+#avatar_source: github
+#github_username: bitbrain
+#avatar_source: local
+#avatar_path: /assets/avatar.png
 
+# Enlaces sociales
+social_links:
+  - url: https://twitter.com/bitbrain_
+    icon: twitter-square
+    color: cyan
+  - url: https://bitbrain.itch.io
+    icon: itch-io
+    color: red
+  - url: https://github.com/bitbrain
+    icon: github-square
+    color: purple
+
+# Configuración del autor
+show_author: true
+
+# Configuración de los plugins
 plugins:
-  - liquid-md5
-  - jekyll/tagging
+  - jekyll-paginate
+  - jekyll-tagging
