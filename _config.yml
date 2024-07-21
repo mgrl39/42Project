@@ -48,7 +48,7 @@ dash:
   avatar_path: /public/avatar.gif
 
 # Build settings
-theme: jekyll-dash
+remote-theme: jekyll-dash
 
 plugins:
   - liquid-md5
