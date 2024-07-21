@@ -1,3 +1,63 @@
+# Site settings
 title: 42 Project
-remote_theme: piharpi/jekyll-klise
-mode: dark 
+description: >- # site description
+  This repository documents my journey at 42. It tracks everything I've been working on during my time there.
+lang: en-US
+timezone: Asia/Jakarta
+image: assets/img/ogp.png # Ensure this path is correct for Open Graph
+repo: https://github.com/mgrl39/42Project
+mode: dark # Use "light" if you prefer light mode
+
+# Profile settings
+author:
+  name: mgrl39
+  bio: >-
+    Documentation of my journey at 42.
+  username: mgrl39
+
+# URL settings
+url: "https://mgrl39.github.io/42Project" # Your GitHub Pages URL
+baseurl: "" # Base URL, usually empty for GitHub Pages
+permalink: /:title/
+google_analytics: # Leave it blank if not used
+fb_appid: # Leave it blank if not used
+
+# Collection settings
+collections:
+  posts:
+    output: true
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+      comments: false
+
+# Build settings
+sass:
+  style: compressed
+
+include:
+  - _redirects
+  - .htaccess
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - node_modules
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
