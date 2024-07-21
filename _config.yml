@@ -57,4 +57,4 @@
 #  description: "A description of 42Project"
 #  url: "https://mgrl39.github.io"
 # ---------------------------------------------
-remote_theme: niklasbuschmann/contrast
+remote_theme: piharpi/jekyll-klise
