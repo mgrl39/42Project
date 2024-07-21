@@ -1,1 +1,8 @@
-theme: jekyll-text-theme
+
+style: dark
+
+footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+
+# Build settings
+markdown: kramdown
+remote_theme: b2a3e8/jekyll-theme-console
