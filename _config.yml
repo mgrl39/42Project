@@ -1,16 +1,2 @@
 # _config.yml
 remote-theme: jekyll-dash
-
-url: "https://mgrl39.github.io/42Project" # URL de tu sitio
-baseurl: "" # Usa "" si no estás usando un subdirectorio
-permalink: /:title/ # Configura la estructura de las URLs
-
-# Configuración del tema Dash
-dash:
-  date_format: "%b %-d, %Y" # Formato de fecha
-  avatar_source: local # Usa una imagen local para el avatar
-  social_links:
-    - url: https://github.com/mgrl39
-      icon: github-square
-      color: purple
-  show_author: true # Muestra el cuadro de autor
