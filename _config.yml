@@ -10,45 +10,51 @@
 #remote_theme: cotes2020/jekyll-theme-chirpy
 
 # _config.yml
-title: 42Project
-description: A description of 42Project
-baseurl: "" # Deja esto en blanco si el sitio está en la raíz del dominio
-url: "https://mgrl39.github.io" # La URL base de tu sitio
+
+
+# --------------------------------------------------------
+# --------------------------------------------------------
+# title: 42Project
+# description: A description of 42Project
+# baseurl: "" # Deja esto en blanco si el sitio está en la raíz del dominio
+# url: "https://mgrl39.github.io" # La URL base de tu sitio
 
 # Configuración de construcción
-theme: "jekyll-theme-primer"
-remote_theme: "cotes2020/jekyll-theme-chirpy"
-plugins:
-  - jekyll-github-metadata
-  - jekyll-seo-tag
-  - jekyll-coffeescript
-  - jekyll-commonmark-ghpages
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-relative-links
-  - jekyll-optional-front-matter
-  - jekyll-readme-index
-  - jekyll-default-layout
-  - jekyll-titles-from-headings
-  - jekyll-remote-theme
+#theme: "jekyll-theme-primer"
+#remote_theme: "cotes2020/jekyll-theme-chirpy"
+#plugins:
+#  - jekyll-github-metadata
+#  - jekyll-seo-tag
+#  - jekyll-coffeescript
+#  - jekyll-commonmark-ghpages
+#  - jekyll-gist
+#  - jekyll-paginate
+#  - jekyll-relative-links
+#  - jekyll-optional-front-matter
+#  - jekyll-readme-index
+#  - jekyll-default-layout
+#  - jekyll-titles-from-headings
+#  - jekyll-remote-theme
 
 # Configuración adicional del tema chirpy
-social:
-  GitHub: mgrl39
+#social:
+#  GitHub: mgrl39
 
 # Excluir archivos del procesamiento
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+#exclude:
+#  - Gemfile
+#  - Gemfile.lock
+#  - node_modules/
+#  - vendor/bundle/
+#  - vendor/cache/
+#  - vendor/gems/
+#  - vendor/ruby/
 
 # Configuración para jekyll-seo-tag
-seo:
-  type: "website"
-  name: "42Project"
-  description: "A description of 42Project"
-  url: "https://mgrl39.github.io"
+#seo:
+#  type: "website"
+#  name: "42Project"
+#  description: "A description of 42Project"
+#  url: "https://mgrl39.github.io"
+# ---------------------------------------------
+remote_theme: niklasbuschmann/contrast
