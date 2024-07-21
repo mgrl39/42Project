@@ -9,7 +9,6 @@ permalink: /:title/ # Configura la estructura de las URLs
 dash:
   date_format: "%b %-d, %Y" # Formato de fecha
   avatar_source: local # Usa una imagen local para el avatar
-  avatar_path: /assets/avatar.png # Ruta al avatar local
   social_links:
     - url: https://github.com/mgrl39
       icon: github-square
