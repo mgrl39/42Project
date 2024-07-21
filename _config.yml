@@ -1,8 +1,10 @@
 
-style: dark
+#style: dark
 
-footer: 'follow me on <a href="https://github.com/mgrl39">Github</a>'
+#footer: 'follow me on <a href="https://github.com/mgrl39">Github</a>'
 
 # Build settings
-markdown: kramdown
-remote_theme: b2a3e8/jekyll-theme-console
+#markdown: kramdown
+#remote_theme: b2a3e8/jekyll-theme-console
+
+remote_theme: cotes2020/jekyll-theme-chirpy
