@@ -1,9 +1,17 @@
-remote_theme: piharpi/jekyll-klise 
+# _config.yml
+theme: jekyll-dash
 
-theme_config:
-  appearance: "dark" 
+url: "https://mgrl39.github.io/42Project" # URL de tu sitio
+baseurl: "" # Usa "" si no estás usando un subdirectorio
+permalink: /:title/ # Configura la estructura de las URLs
 
-
-url: "https://mgrl39.github.io/42Project" 
-baseurl: "" 
-permalink: /:title/
+# Configuración del tema Dash
+dash:
+  date_format: "%b %-d, %Y" # Formato de fecha
+  avatar_source: local # Usa una imagen local para el avatar
+  avatar_path: /assets/avatar.png # Ruta al avatar local
+  social_links:
+    - url: https://github.com/mgrl39
+      icon: github-square
+      color: purple
+  show_author: true # Muestra el cuadro de autor
