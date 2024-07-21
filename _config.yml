@@ -1,1 +1,55 @@
-remote-theme: jekyll-dash
+title: bitbrain
+url: https://mgrl39.github.io
+author: bitbrain
+email: miguel-gonzalez@gmx.de
+description: > # this means to ignore newlines until "show_exerpts:"
+  Miguel is a software engineer and indie game developer currently based in the UK.
+  <br/>He occasionally blogs about software design, continuous integration and game development with Godot Engine.
+show_excerpts: false # set to true to show excerpts on the homepage
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+tag_permalink_style: pretty
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+# jekyll-dash date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+dash:
+  date_format: "%b %-d, %Y"
+
+  disqus:
+    shortname: mgrl39-github-io
+
+  # generate social links in footer
+  # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
+  social_links:
+    - url: https://soundcloud.com/myrealityde
+      icon: soundcloud
+      color: orange
+    - url: https://twitter.com/bitbrain
+      icon: twitter-square
+      color: cyan
+    - url: https://bitbrain.itch.io
+      icon: itch-io
+      color: red
+    - url: https://www.twitch.tv/bitbrain_
+      icon: twitch
+      color: purple
+    - url: https://www.youtube.com/@bitbraindev
+      icon: youtube
+      color: red
+    - url: https://github.com/bitbrain
+      icon: github-square
+      color: yellow
+      
+  avatar_source: local
+  avatar_path: /public/avatar.gif
+
+# Build settings
+theme: jekyll-dash
+
+plugins:
+  - liquid-md5
+  - jekyll/tagging
