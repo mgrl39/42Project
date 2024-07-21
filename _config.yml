@@ -1,5 +1,5 @@
 title: bitbrain
-url: https://mgrl39.github.io
+url: https://doncom.me/42Project/
 author: bitbrain
 email: miguel-gonzalez@gmx.de
 description: > # this means to ignore newlines until "show_exerpts:"
@@ -20,7 +20,7 @@ dash:
   date_format: "%b %-d, %Y"
 
   disqus:
-    shortname: mgrl39-github-io
+    shortname: doncom-me
 
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
