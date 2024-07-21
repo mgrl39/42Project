@@ -1,5 +1,5 @@
 # _config.yml
-theme: jekyll-dash
+remote-theme: jekyll-dash
 
 url: "https://mgrl39.github.io/42Project" # URL de tu sitio
 baseurl: "" # Usa "" si no estás usando un subdirectorio
