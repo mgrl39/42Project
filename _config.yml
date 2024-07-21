@@ -1,7 +1,7 @@
 
 style: dark
 
-footer: 'follow me in <a href="https://github.com/mgrl39">Github</a>'
+footer: 'follow me on <a href="https://github.com/mgrl39">Github</a>'
 
 # Build settings
 markdown: kramdown
