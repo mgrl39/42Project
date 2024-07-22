@@ -460,3 +460,12 @@ graph TD;
   E --> F;
   F --> END;
 ```
+
+
+Interesting commands:
+```shell
+nm libft.a
+```
+```shell
+nm libft.a
+```
