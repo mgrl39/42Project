@@ -28,6 +28,31 @@ sequenceDiagram
 
     PS->>PC: Print characters in string
 ```
+```mermaid
+graph TD
+    A[ft_printf] -->|calls| B[handle_format]
+    A -->|calls| C[ft_putchar]
+
+    B -->|handles format| D[ft_putstr]
+    B -->|handles format| E[ft_putnbr]
+    B -->|handles format| F[ft_putnbr_unsigned]
+    B -->|handles format| G[ft_puthex]
+    B -->|handles format| H[ft_putpointer]
+    B -->|handles format| C[ft_putchar]
+
+    H -->|uses| D
+    H -->|uses| G
+
+    E -->|used by| C
+    F -->|used by| C
+    G -->|used by| C
+    G -->|used by| H
+    D -->|used by| C
+
+
+    classDef funcStyle fill:#f9f,stroke:#333,stroke-width:2px;
+    class A,B,C,D,E,F,G,H funcStyle;
+```
 
 > [!CAUTION]  
 > These functions have not been verified yet. **_I cannot demonstrate that they work correctly._**
